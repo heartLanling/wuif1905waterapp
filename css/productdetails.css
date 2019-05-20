@@ -1,0 +1,108 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding:0.22rem;
+    color:#4ebbfe;
+    font-size: 0.38rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+}
+header > a{
+    color: #4ebbfe;
+}
+
+.goods{
+    padding: 0.22rem;
+    height: auto;
+}
+.thumb{
+    height: 6.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb > img{
+    width: 3rem;
+    height: 3.6rem;
+}
+
+.goods h1{
+    font-size: 0.28rem;
+    color: #000;
+    opacity: 0.6;
+}
+.goods > p.desc{
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.3);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.info{
+    font-size:0.26rem;
+    border-bottom: 0.01rem solid rgba(213,223,227,0.3);
+    padding-bottom: 0.2rem;
+}
+.info > span{
+    margin-right: 0.26rem;
+}
+.info > span:first-child{
+    font-size:0.28rem;
+    color:#fbb548;
+}
+.info > span:nth-child(2){
+    font-size: 0.2rem;
+    color:#41b2fc;
+    background-color :rgba(65,178,252,0.1);
+    border-radius:0.18rem;
+    padding: 0.08rem 0.2rem;
+    margin-right: 0.3rem;
+}
+.info > span:nth-child(3){
+    font-size:0.2rem;
+    color: #36d681;
+    background-color: rgba(54,214,129,0.1);
+    border-radius:0.18rem;
+    padding: 0.08rem 0.2rem;
+}
+
+.total{
+    font-size: 0.2rem;
+    color: #41b2fc;
+    float: right;
+    padding: 0.08rem 0.2rem;
+}
+
+.discount{
+    border-bottom: 0.01rem solid rgba(213,223,227,0.3);
+    padding-bottom: 0.2rem;
+    font-size: 0.24rem;
+}
+
+.discount span{
+    font-size: 0.24rem;
+    padding: 0.08rem 0.20rem;
+    background-color: #36d681;
+    background-image: linear-gradient(-90deg,#ff933b,#ffc471);
+    border-radius:0.22rem
+}
+
+.guarantee{
+    margin-top: 0.16rem;
+    border-bottom: 0.01rem solid rgba(213,223,227,0.3);
+    padding-bottom: 0.2rem;
+    font-size: 0.24rem;
+}
+
+.guarantee  > span{
+    font-size: 0.24rem;
+    color: #41b2fc;
+    margin-right: 0.34rem;
+    padding: 0.08rem 0.20rem;
+}
+
