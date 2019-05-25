@@ -102,7 +102,31 @@ header > a{
 .guarantee  > span{
     font-size: 0.24rem;
     color: #41b2fc;
-    margin-right: 0.34rem;
+    margin-right: 0.30rem;
     padding: 0.08rem 0.20rem;
+}
+
+.guarantee > span > i{
+    color: #36d681;
+}
+
+.userEvaluation{
+    margin-top: 0.16rem;
+    border-bottom: 0.01rem solid rgba(213,223,227,0.3);
+    padding-bottom: 0.2rem;
+    font-size: 0.32rem;
+    color: #41b2fc;
+}
+.userEvaluation > span{
+    width: 133px;
+    height: 32px;
+
+}
+.userEvaluation .two > a{
+    display: block;
+    float: right;
+    color: #41b2fc;
+    font-size: 0.24rem;
+    line-height: 32px;
 }
 
